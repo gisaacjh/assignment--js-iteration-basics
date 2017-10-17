@@ -6,8 +6,9 @@
  * and it should return a new string without the vowels.
  *
 */
-
-
+function removeVowels(word) {
+  
+}
 
 
 

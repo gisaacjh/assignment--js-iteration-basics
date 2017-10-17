@@ -8,7 +8,16 @@
  *
 */
 
-
+function simpOrSamp(simpList) {
+  for (var i = 0; i < simpList.length; i ++) {
+    if (simpList[i] < 6) {
+      console.log(simpList[i], "Sampson");
+    }
+    {
+      console.log(simpList[i], "Simpson");
+    }
+  }
+}
 
 
 
@@ -27,7 +36,7 @@ var simpList = [
 
 var modifiedNamesList = simpOrSamp(simpList)
 
-console.assert( modifiedNamesList[1] === 'OJ Sampson' )
-console.assert( modifiedNamesList[2] === 'Marge Sampson' )
-console.assert( modifiedNamesList[5] === 'Maggie Simpson' )
-console.assert( modifiedNamesList[0] !== 'Homer Simpson' )
+// console.assert( modifiedNamesList[1] === 'OJ Sampson' )
+// console.assert( modifiedNamesList[2] === 'Marge Sampson' )
+// console.assert( modifiedNamesList[5] === 'Maggie Simpson' )
+// console.assert( modifiedNamesList[0] !== 'Homer Simpson' )

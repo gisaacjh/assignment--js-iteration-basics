@@ -7,8 +7,33 @@
  * is found in the array.
  *
 **/
+// function countWordInArray(word, array) {
+//   var sentenceArray = []
+//   for (var i = 0; i < array.length; i ++) {
+//     if (word === array[i]) {
+//       sentenceArray.push(array[i])
+//     }
+//     return sentenceArray.length
+//   }
+// }
+
+function countWordInArray(word, array) {
+  var sentenceArray = []
+
+  for (var i = 0; i < array.length; i++) {
+
+    if (word === array[i]) {
+      sentenceArray.push(array[i])
+    }
+  }
+  return sentenceArray.length
+}
 
 
+console.log( countWordInArray('saw', sentenceArray_1));
+console.log( countWordInArray('take', sentenceArray_1));
+console.log( countWordInArray('brother', sentenceArray_1));
+console.log( countWordInArray('sister', sentenceArray_1));
 
 
 

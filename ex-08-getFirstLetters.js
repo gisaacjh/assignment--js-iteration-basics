@@ -8,7 +8,15 @@
  * Hint: you may want to invoke the `reverseString` function you wrote earlier
  * from the previous queestion
 */
+function getFirstLetters(list) {
+  var newList = []
 
+  for (var i = 0; i < list.length; i ++) {
+    newList.push(list[i].charAt(0))
+  }
+  console.log("returning wat: ", newList);
+  return newList
+}
 
 
 
@@ -16,13 +24,13 @@
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 let outputArray1 = getFirstLetters(['wow', 'milk', 'howdy'])
-console.assert( getFirstLetters(outputArray1[0] === 'w')
-console.assert( getFirstLetters(outputArray1[1] === 'm')
-console.assert( getFirstLetters(outputArray1[2] === 'h')
+console.assert(outputArray1[0] === 'w')
+console.assert(outputArray1[1] === 'm')
+console.assert(outputArray1[2] === 'h')
 
 
 let outputArray2 = getFirstLetters(['kayak', 'chair', 'jacket', 'nice!'])
-console.assert( getFirstLetters(outputArray2[0] === 'k')
-console.assert( getFirstLetters(outputArray2[1] === 'c')
-console.assert( getFirstLetters(outputArray2[2] === 'j')
-console.assert( getFirstLetters(outputArray2[3] === 'n')
+console.assert(outputArray2[0] === 'k')
+console.assert(outputArray2[1] === 'c')
+console.assert(outputArray2[2] === 'j')
+console.assert(outputArray2[3] === 'n')

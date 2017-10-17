@@ -9,6 +9,24 @@
 
 
 
+function wordMatchInArray(word, sampleWordsArray) {
+
+  for(var i = 0; i < sampleWordsArray.length; i++) {
+    if (string === sampleWordsArray[i]) {
+      return true
+    }
+  }
+  return false
+}
+
+
+  // console.log(wordMatchInArray('girls', sampleWordsArray) === true);
+  // console.log(wordMatchInArray('fun', sampleWordsArray) === true);
+  // console.log(wordMatchInArray('boys', sampleWordsArray) === false);
+  //
+  //
+  // console.log(wordMatchInArray('boys', sampleWordsArray2) === true);
+  // console.log(wordMatchInArray('girls', sampleWordsArray2) === false);
 
 
 

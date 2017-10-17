@@ -1,17 +1,24 @@
 
 /**
  * reverseString()
- *
  * Write a function called reverseString that takes a string as input
  * and returns a string with the characters in reverse order.
  * (note: can't use .reverse() method )
  *
 */
+function reverseString(word) {
+  var reverse = ""
+  for (var i = word.length-1; i >= 0; i--) {
+    reverse += word[i]
+  }
 
+  return reverse
+}
 
-
-
-
+console.log( reverseString('books'));
+console.log( reverseString('coolness'));
+console.log( reverseString('bedtime'));
+console.log( reverseString('yah sure'));
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~

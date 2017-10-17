@@ -7,7 +7,11 @@
 // makeAcronym('PNG')
 //  => 'PDF'
 
-
+function makeAcronym(sentence) {
+  var acronym = ""
+  sentence = sentence.split(" ")
+  
+}
 
 
 

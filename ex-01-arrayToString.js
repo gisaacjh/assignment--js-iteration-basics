@@ -7,12 +7,17 @@
  * You must use a for-loop to solve this problem.
  **/
 
-
-function arrayToString(arrayInput){
-  /* Your code below. Look at the console.asserts to se*/
+function arrayToString(sentence) {
+var sentenceArray = []
+for (var i = 0; i < sentence.length; i ++) {
+  sentenceArray.push(sentence[i])
+  }
+  return sentenceArray.join("")
 }
 
-
+console.log( output1 === "Hellohowareyou" );
+console.log( output2 === 'coolgreatniceawesomesweet' );
+console.log( output3 === 'coolgreatawesomesuper' );
 
 
 
@@ -28,9 +33,8 @@ var newArray = ['cool', 'great', 'awesome', 'super']
 var output3 = arrayToString(newArray)
 
 var lastARray = ['wow', 'great', 'wow', 'neat']
-var output4 = arrayToString(coolArr3)
+
 
 console.assert( output1 === "Hellohowareyou" )
 console.assert( output2 === 'coolgreatniceawesomesweet' )
 console.assert( output3 === 'coolgreatawesomesuper' )
-console.assert( output4 === 'wowgreatwowneat' )

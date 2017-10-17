@@ -9,9 +9,27 @@
  * from the previous queestion
 */
 
+function isPalindrome(word) {
+  var spelled = word.split("")
+  var reverse = spelled.reverse()
 
+  for (var i = 0; i < word.lenght; i++) {
+    if (word[i] === reverse) {
+     reverse.join("")
+     return true
+  } else {
+    return false
+  }
 
+}
 
+// console.log( isPalindrome('wow'));
+// console.log( isPalindrome('milk'));
+// console.log( isPalindrome('howdy'));
+// console.log( isPalindrome('kayak'));
+// console.log( isPalindrome('tacocat'));
+// console.log( isPalindrome('1201411'));
+// console.log( isPalindrome('13100131'));
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
